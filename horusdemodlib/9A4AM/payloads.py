@@ -10,7 +10,8 @@ import struct
 HORUS_PAYLOAD_LIST = {0:'4FSKTEST', 1:'HORUSBINARY', 256: '4FSKTEST-V2'}
 
 # URL for payload list
-PAYLOAD_ID_LIST_URL = "http://127.0.0.1:1180/payload_id_list.txt"
+#PAYLOAD_ID_LIST_URL = "https://raw.githubusercontent.com/projecthorus/horusdemodlib/master/payload_id_list.txt"
+PAYLOAD_ID_LIST_URL = "https://raw.githubusercontent.com/9A4AM/horusdemodlib/master/payload_id_list.txt"
 
 # Custom field data. 
 HORUS_CUSTOM_FIELD_LENGTH = 9
